@@ -8,9 +8,8 @@ use TYPO3\CMS\Core\Http\PropagateResponseException;
 use TYPO3\CMS\Core\Localization\LanguageService;
 use TYPO3\CMS\Core\Localization\LanguageServiceFactory;
 
-class AjaxController
+class MyUserFunction
 {
-    public array $conf = [];
     private LanguageService $languageService;
 
     public function __construct(
@@ -28,26 +27,9 @@ class AjaxController
 
     public function main(string $content, array $conf, ServerRequestInterface $request): string
     {
-        $this->conf = $conf;
         $this->languageService = $this->getLanguageService($request);
 
-        $parameter = $request->getQueryParams()['tx_examples_haiku']??[];
-        $action = $parameter['action'] ?? '';
-        try {
-            $result = match ($action) {
-                'getSeasonList' => $this->getTranslatedSeasonListAction(),
-                'translateSeason' => $this->translateSeasonAction($parameter['season'] ?? ''),
-                default => $this->notFoundAction('Action ' . $action . ' not found.'),
-            };
-        } catch (\Exception $e) {
-            $result = json_encode(
-                [
-                    'error' => $e::class,
-                    'errorMessage' => $e->getMessage(),
-                ]
-            );
-        }
-        return $result;
+        return $this->languageService->getLL('LLL:EXT:my_extension/Resources/Private/Language/locallang.xlf:something.');
     }
 
     private function getTranslatedSeasonListAction(): string
