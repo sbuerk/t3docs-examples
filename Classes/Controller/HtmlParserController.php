@@ -28,7 +28,7 @@ class HtmlParserController extends ActionController
 {
     protected HtmlParser $htmlParser;
 
-    public function injectHtmlParser(HtmlParser $htmlParser)
+    public function __construct(\TYPO3\CMS\Core\Html\HtmlParser $htmlParser)
     {
         $this->htmlParser = $htmlParser;
     }

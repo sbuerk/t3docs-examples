@@ -31,7 +31,6 @@ use TYPO3\CMS\Core\Crypto\PasswordHashing\PasswordHashFactory;
 use TYPO3\CMS\Core\Database\Connection;
 use TYPO3\CMS\Core\Database\ConnectionPool;
 use TYPO3\CMS\Core\DataHandling\DataHandler;
-use TYPO3\CMS\Core\Imaging\Icon;
 use TYPO3\CMS\Core\Imaging\IconFactory;
 use TYPO3\CMS\Core\Localization\LanguageService;
 use TYPO3\CMS\Core\Log\LogLevel;
@@ -166,7 +165,7 @@ class ModuleController extends ActionController implements LoggerAwareInterface
             $html = $this->iconFactory->getIconForRecord(
                 'pages',
                 $pageRecord,
-                Icon::SIZE_SMALL,
+                \TYPO3\CMS\Core\Imaging\IconSize::SMALL->value,
             )->render();
         }
         $tree->tree[] = [

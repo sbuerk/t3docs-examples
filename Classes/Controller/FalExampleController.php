@@ -26,7 +26,7 @@ class FalExampleController extends ActionController
 {
     protected ResourceFactory $resourceFactory;
 
-    public function injectResourceFactory(ResourceFactory $resourceFactory)
+    public function __construct(\TYPO3\CMS\Core\Resource\ResourceFactory $resourceFactory)
     {
         $this->resourceFactory = $resourceFactory;
     }
