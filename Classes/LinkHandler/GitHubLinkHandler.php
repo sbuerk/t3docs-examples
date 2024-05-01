@@ -39,7 +39,8 @@ class GitHubLinkHandler implements LinkHandlerInterface
     public function __construct(
         // The page renderer is needed to register the JavaScript
         private readonly PageRenderer $pageRenderer,
-    ) {}
+    ) {
+    }
 
     /**
      * Initialize the handler

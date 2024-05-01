@@ -25,7 +25,8 @@
     "require-dev": {
         "ergebnis/composer-normalize": "~2.42.0",
         "friendsofphp/php-cs-fixer": "^3.52",
-        "rector/rector": "1.0.3"
+        "rector/rector": "1.0.3",
+        "typo3/coding-standards": "^0.5.5"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,

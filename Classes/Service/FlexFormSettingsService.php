@@ -21,7 +21,8 @@ class FlexFormSettingsService
 {
     public function __construct(
         protected readonly FlexFormService $flexFormService,
-    ) {}
+    ) {
+    }
 
     public function combineSettings(mixed $settings, string $flexFormString): array
     {

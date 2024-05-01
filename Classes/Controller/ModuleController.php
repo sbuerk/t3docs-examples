@@ -66,7 +66,8 @@ class ModuleController extends ActionController implements LoggerAwareInterface
         protected readonly ConnectionPool $connectionPool,
         protected readonly DataHandler $dataHandler,
         protected readonly TableInformationService $tableInformationService,
-    ) {}
+    ) {
+    }
 
     /**
      * Renders the list of all possible flash messages

@@ -34,7 +34,8 @@ final readonly class CheckExternalLinksToLocalPagesEventListener
     public function __construct(
         private BrokenLinkRepository $brokenLinkRepository,
         private SoftReferenceParserFactory $softReferenceParserFactory,
-    ) {}
+    ) {
+    }
 
     public function __invoke(BeforeRecordIsAnalyzedEvent $event): void
     {

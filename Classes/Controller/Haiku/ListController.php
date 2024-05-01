@@ -33,7 +33,8 @@ final class ListController
         private readonly HaikuRepository $haikuRepository,
         private readonly FlexFormSettingsService $flexFormSettingsService,
         private readonly StandaloneViewService $viewService,
-    ) {}
+    ) {
+    }
 
     public function main(string $content, array $conf, ServerRequestInterface $request): string
     {

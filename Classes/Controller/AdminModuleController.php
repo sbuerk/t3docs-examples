@@ -33,7 +33,8 @@ final readonly class AdminModuleController
         protected ModuleTemplateFactory $moduleTemplateFactory,
         protected IconFactory $iconFactory,
         // ...
-    ) {}
+    ) {
+    }
 
     public function handleRequest(ServerRequestInterface $request): ResponseInterface
     {

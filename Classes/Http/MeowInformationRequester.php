@@ -27,7 +27,8 @@ final readonly class MeowInformationRequester
     // so we inject it into the class using constructor injection.
     public function __construct(
         private RequestFactory $requestFactory,
-    ) {}
+    ) {
+    }
 
     /**
      * @throws \JsonException
