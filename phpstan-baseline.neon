@@ -1,0 +1,426 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Cannot cast mixed to string\\.$#"
+			count: 1
+			path: Classes/Command/CreateWizardCommand.php
+
+		-
+			message: "#^Method T3docs\\\\Examples\\\\ContextMenu\\\\HelloWorldItemProvider\\:\\:addItems\\(\\) has parameter \\$items with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: Classes/ContextMenu/HelloWorldItemProvider.php
+
+		-
+			message: "#^Method T3docs\\\\Examples\\\\ContextMenu\\\\HelloWorldItemProvider\\:\\:addItems\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: Classes/ContextMenu/HelloWorldItemProvider.php
+
+		-
+			message: "#^Method T3docs\\\\Examples\\\\ContextMenu\\\\HelloWorldItemProvider\\:\\:getAdditionalAttributes\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: Classes/ContextMenu/HelloWorldItemProvider.php
+
+		-
+			message: "#^Parameter \\#2 \\$offset of function array_slice expects int, int\\|false given\\.$#"
+			count: 1
+			path: Classes/ContextMenu/HelloWorldItemProvider.php
+
+		-
+			message: "#^Property T3docs\\\\Examples\\\\ContextMenu\\\\HelloWorldItemProvider\\:\\:\\$itemsConfiguration type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: Classes/ContextMenu/HelloWorldItemProvider.php
+
+		-
+			message: "#^Cannot call method cleanUp\\(\\) on mixed\\.$#"
+			count: 1
+			path: Classes/Controller/AdminModuleController.php
+
+		-
+			message: "#^Cannot call method get\\(\\) on mixed\\.$#"
+			count: 1
+			path: Classes/Controller/AdminModuleController.php
+
+		-
+			message: "#^Cannot call method getModuleIdentifier\\(\\) on mixed\\.$#"
+			count: 1
+			path: Classes/Controller/AdminModuleController.php
+
+		-
+			message: "#^Cannot call method toArray\\(\\) on mixed\\.$#"
+			count: 1
+			path: Classes/Controller/AdminModuleController.php
+
+		-
+			message: "#^Method T3docs\\\\Examples\\\\Controller\\\\Haiku\\\\DetailController\\:\\:main\\(\\) has parameter \\$conf with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: Classes/Controller/Haiku/DetailController.php
+
+		-
+			message: "#^Property T3docs\\\\Examples\\\\Controller\\\\Haiku\\\\DetailController\\:\\:\\$conf type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: Classes/Controller/Haiku/DetailController.php
+
+		-
+			message: "#^Method T3docs\\\\Examples\\\\Controller\\\\Haiku\\\\ListController\\:\\:main\\(\\) has parameter \\$conf with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: Classes/Controller/Haiku/ListController.php
+
+		-
+			message: "#^Property T3docs\\\\Examples\\\\Controller\\\\Haiku\\\\ListController\\:\\:\\$conf type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: Classes/Controller/Haiku/ListController.php
+
+		-
+			message: "#^Parameter \\#4 \\$hSC of method TYPO3\\\\CMS\\\\Core\\\\Html\\\\HtmlParser\\:\\:HTMLcleaner\\(\\) expects int, false given\\.$#"
+			count: 1
+			path: Classes/Controller/HtmlParserController.php
+
+		-
+			message: "#^Call to an undefined method TYPO3\\\\CMS\\\\Core\\\\Resource\\\\FileRepository\\:\\:findAll\\(\\)\\.$#"
+			count: 1
+			path: Classes/Controller/ModuleController.php
+
+		-
+			message: "#^Cannot call method error\\(\\) on Psr\\\\Log\\\\LoggerInterface\\|null\\.$#"
+			count: 1
+			path: Classes/Controller/ModuleController.php
+
+		-
+			message: "#^Cannot call method info\\(\\) on Psr\\\\Log\\\\LoggerInterface\\|null\\.$#"
+			count: 1
+			path: Classes/Controller/ModuleController.php
+
+		-
+			message: "#^Cannot call method log\\(\\) on Psr\\\\Log\\\\LoggerInterface\\|null\\.$#"
+			count: 1
+			path: Classes/Controller/ModuleController.php
+
+		-
+			message: "#^Cannot call method warning\\(\\) on Psr\\\\Log\\\\LoggerInterface\\|null\\.$#"
+			count: 1
+			path: Classes/Controller/ModuleController.php
+
+		-
+			message: "#^Method T3docs\\\\Examples\\\\Controller\\\\ModuleController\\:\\:debugClipboard\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: Classes/Controller/ModuleController.php
+
+		-
+			message: "#^Method T3docs\\\\Examples\\\\Controller\\\\ModuleController\\:\\:debugCookies\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: Classes/Controller/ModuleController.php
+
+		-
+			message: "#^Method T3docs\\\\Examples\\\\Controller\\\\ModuleController\\:\\:getClipboard\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: Classes/Controller/ModuleController.php
+
+		-
+			message: "#^Method T3docs\\\\Examples\\\\Controller\\\\ModuleController\\:\\:getCurrentClipboard\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: Classes/Controller/ModuleController.php
+
+		-
+			message: "#^Method T3docs\\\\Examples\\\\Controller\\\\ModuleController\\:\\:getPasswordHash\\(\\) should return string but returns string\\|null\\.$#"
+			count: 1
+			path: Classes/Controller/ModuleController.php
+
+		-
+			message: "#^Offset 'pid' does not exist on array\\|null\\.$#"
+			count: 1
+			path: Classes/Controller/ModuleController.php
+
+		-
+			message: "#^Offset 'uid' does not exist on array\\|null\\.$#"
+			count: 3
+			path: Classes/Controller/ModuleController.php
+
+		-
+			message: "#^PHPDoc tag @var has invalid value \\(\\$clipboard Clipboard\\)\\: Unexpected token \"\\$clipboard\", expected type at offset 9$#"
+			count: 3
+			path: Classes/Controller/ModuleController.php
+
+		-
+			message: "#^PHPDoc tag @var has invalid value \\(\\$tree PageTreeView\\)\\: Unexpected token \"\\$tree\", expected type at offset 9$#"
+			count: 1
+			path: Classes/Controller/ModuleController.php
+
+		-
+			message: "#^Parameter \\#1 \\$messageBody of method TYPO3\\\\CMS\\\\Extbase\\\\Mvc\\\\Controller\\\\ActionController\\:\\:addFlashMessage\\(\\) expects string, string\\|null given\\.$#"
+			count: 1
+			path: Classes/Controller/ModuleController.php
+
+		-
+			message: "#^Parameter \\#1 \\$uid of method TYPO3\\\\CMS\\\\Backend\\\\Tree\\\\View\\\\AbstractTreeView\\:\\:getTree\\(\\) expects int, mixed given\\.$#"
+			count: 1
+			path: Classes/Controller/ModuleController.php
+
+		-
+			message: "#^Parameter \\#2 \\$messageTitle of method TYPO3\\\\CMS\\\\Extbase\\\\Mvc\\\\Controller\\\\ActionController\\:\\:addFlashMessage\\(\\) expects string, string\\|null given\\.$#"
+			count: 1
+			path: Classes/Controller/ModuleController.php
+
+		-
+			message: "#^Parameter \\#2 \\$uid of static method TYPO3\\\\CMS\\\\Backend\\\\Utility\\\\BackendUtility\\:\\:getRecord\\(\\) expects int\\|string, mixed given\\.$#"
+			count: 1
+			path: Classes/Controller/ModuleController.php
+
+		-
+			message: "#^Parameter \\$messageBody of method TYPO3\\\\CMS\\\\Extbase\\\\Mvc\\\\Controller\\\\ActionController\\:\\:addFlashMessage\\(\\) expects string, string\\|null given\\.$#"
+			count: 1
+			path: Classes/Controller/ModuleController.php
+
+		-
+			message: "#^Property T3docs\\\\Examples\\\\Controller\\\\ModuleController\\:\\:\\$exampleConfig \\(array\\) does not accept mixed\\.$#"
+			count: 1
+			path: Classes/Controller/ModuleController.php
+
+		-
+			message: "#^Property T3docs\\\\Examples\\\\Controller\\\\ModuleController\\:\\:\\$exampleConfig is never read, only written\\.$#"
+			count: 1
+			path: Classes/Controller/ModuleController.php
+
+		-
+			message: "#^Property T3docs\\\\Examples\\\\Controller\\\\ModuleController\\:\\:\\$exampleConfig type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: Classes/Controller/ModuleController.php
+
+		-
+			message: "#^Variable \\$html might not be defined\\.$#"
+			count: 1
+			path: Classes/Controller/ModuleController.php
+
+		-
+			message: "#^Method T3docs\\\\Examples\\\\DataProcessing\\\\CustomCategoryProcessor\\:\\:process\\(\\) has parameter \\$contentObjectConfiguration with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: Classes/DataProcessing/CustomCategoryProcessor.php
+
+		-
+			message: "#^Method T3docs\\\\Examples\\\\DataProcessing\\\\CustomCategoryProcessor\\:\\:process\\(\\) has parameter \\$processedData with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: Classes/DataProcessing/CustomCategoryProcessor.php
+
+		-
+			message: "#^Method T3docs\\\\Examples\\\\DataProcessing\\\\CustomCategoryProcessor\\:\\:process\\(\\) has parameter \\$processorConfiguration with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: Classes/DataProcessing/CustomCategoryProcessor.php
+
+		-
+			message: "#^Method T3docs\\\\Examples\\\\DataProcessing\\\\CustomCategoryProcessor\\:\\:process\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: Classes/DataProcessing/CustomCategoryProcessor.php
+
+		-
+			message: "#^Variable \\$processorConfiguration on left side of \\?\\? always exists and is not nullable\\.$#"
+			count: 1
+			path: Classes/DataProcessing/CustomCategoryProcessor.php
+
+		-
+			message: "#^Class T3docs\\\\Examples\\\\Domain\\\\Repository\\\\CategoryRepository extends generic class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Repository but does not specify its types\\: T$#"
+			count: 1
+			path: Classes/Domain/Repository/CategoryRepository.php
+
+		-
+			message: "#^Method T3docs\\\\Examples\\\\Domain\\\\Repository\\\\HaikuRepository\\:\\:findAll\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: Classes/Domain/Repository/HaikuRepository.php
+
+		-
+			message: "#^Method T3docs\\\\Examples\\\\Domain\\\\Repository\\\\HaikuRepository\\:\\:findByTitle\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: Classes/Domain/Repository/HaikuRepository.php
+
+		-
+			message: "#^Method T3docs\\\\Examples\\\\Domain\\\\Repository\\\\HaikuRepository\\:\\:findByUid\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: Classes/Domain/Repository/HaikuRepository.php
+
+		-
+			message: "#^Method T3docs\\\\Examples\\\\EventListener\\\\LinkValidator\\\\CheckExternalLinksToLocalPagesEventListener\\:\\:addItemToBrokenLinkRepository\\(\\) has parameter \\$record with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: Classes/EventListener/LinkValidator/CheckExternalLinksToLocalPagesEventListener.php
+
+		-
+			message: "#^Method T3docs\\\\Examples\\\\EventListener\\\\LinkValidator\\\\CheckExternalLinksToLocalPagesEventListener\\:\\:findAllParsers\\(\\) has parameter \\$conf with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: Classes/EventListener/LinkValidator/CheckExternalLinksToLocalPagesEventListener.php
+
+		-
+			message: "#^Method T3docs\\\\Examples\\\\EventListener\\\\LinkValidator\\\\CheckExternalLinksToLocalPagesEventListener\\:\\:findAllParsers\\(\\) return type has no value type specified in iterable type iterable\\.$#"
+			count: 1
+			path: Classes/EventListener/LinkValidator/CheckExternalLinksToLocalPagesEventListener.php
+
+		-
+			message: "#^Method T3docs\\\\Examples\\\\EventListener\\\\LinkValidator\\\\CheckExternalLinksToLocalPagesEventListener\\:\\:matchUrl\\(\\) has parameter \\$record with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: Classes/EventListener/LinkValidator/CheckExternalLinksToLocalPagesEventListener.php
+
+		-
+			message: "#^Method T3docs\\\\Examples\\\\EventListener\\\\LinkValidator\\\\CheckExternalLinksToLocalPagesEventListener\\:\\:matchUrl\\(\\) has parameter \\$results with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: Classes/EventListener/LinkValidator/CheckExternalLinksToLocalPagesEventListener.php
+
+		-
+			message: "#^Method T3docs\\\\Examples\\\\EventListener\\\\LinkValidator\\\\CheckExternalLinksToLocalPagesEventListener\\:\\:parseField\\(\\) has parameter \\$record with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: Classes/EventListener/LinkValidator/CheckExternalLinksToLocalPagesEventListener.php
+
+		-
+			message: "#^Method T3docs\\\\Examples\\\\EventListener\\\\LinkValidator\\\\CheckExternalLinksToLocalPagesEventListener\\:\\:parseField\\(\\) has parameter \\$results with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: Classes/EventListener/LinkValidator/CheckExternalLinksToLocalPagesEventListener.php
+
+		-
+			message: "#^Method T3docs\\\\Examples\\\\EventListener\\\\LinkValidator\\\\CheckExternalLinksToLocalPagesEventListener\\:\\:parseField\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: Classes/EventListener/LinkValidator/CheckExternalLinksToLocalPagesEventListener.php
+
+		-
+			message: "#^Constant LF not found\\.$#"
+			count: 1
+			path: Classes/Form/Element/SpecialFieldElement.php
+
+		-
+			message: "#^Method T3docs\\\\Examples\\\\Form\\\\Element\\\\SpecialFieldElement\\:\\:render\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: Classes/Form/Element/SpecialFieldElement.php
+
+		-
+			message: "#^Cannot access offset 'fact' on mixed\\.$#"
+			count: 1
+			path: Classes/Http/MeowInformationRequester.php
+
+		-
+			message: "#^Cannot cast mixed to string\\.$#"
+			count: 1
+			path: Classes/Http/MeowInformationRequester.php
+
+		-
+			message: "#^Expression on left side of \\?\\? is not nullable\\.$#"
+			count: 1
+			path: Classes/Http/MeowInformationRequester.php
+
+		-
+			message: "#^Expression on left side of \\?\\? is not nullable\\.$#"
+			count: 1
+			path: Classes/LinkHandler/GitHubLinkHandler.php
+
+		-
+			message: "#^Method T3docs\\\\Examples\\\\LinkHandler\\\\GitHubLinkHandler\\:\\:canHandleLink\\(\\) has parameter \\$linkParts with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: Classes/LinkHandler/GitHubLinkHandler.php
+
+		-
+			message: "#^Method T3docs\\\\Examples\\\\LinkHandler\\\\GitHubLinkHandler\\:\\:getLinkAttributes\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: Classes/LinkHandler/GitHubLinkHandler.php
+
+		-
+			message: "#^Method T3docs\\\\Examples\\\\LinkHandler\\\\GitHubLinkHandler\\:\\:initialize\\(\\) has parameter \\$configuration with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: Classes/LinkHandler/GitHubLinkHandler.php
+
+		-
+			message: "#^Property T3docs\\\\Examples\\\\LinkHandler\\\\GitHubLinkHandler\\:\\:\\$configuration type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: Classes/LinkHandler/GitHubLinkHandler.php
+
+		-
+			message: "#^Property T3docs\\\\Examples\\\\LinkHandler\\\\GitHubLinkHandler\\:\\:\\$linkParts type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: Classes/LinkHandler/GitHubLinkHandler.php
+
+		-
+			message: "#^Method T3docs\\\\Examples\\\\LinkHandler\\\\GitHubLinkHandling\\:\\:asString\\(\\) has parameter \\$parameters with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: Classes/LinkHandler/GitHubLinkHandling.php
+
+		-
+			message: "#^Method T3docs\\\\Examples\\\\LinkHandler\\\\GitHubLinkHandling\\:\\:resolveHandlerData\\(\\) has parameter \\$data with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: Classes/LinkHandler/GitHubLinkHandling.php
+
+		-
+			message: "#^Method T3docs\\\\Examples\\\\LinkHandler\\\\GitHubLinkHandling\\:\\:resolveHandlerData\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: Classes/LinkHandler/GitHubLinkHandling.php
+
+		-
+			message: "#^Method T3docs\\\\Examples\\\\LinkHandler\\\\GithubLinkBuilder\\:\\:build\\(\\) has parameter \\$conf with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: Classes/LinkHandler/GithubLinkBuilder.php
+
+		-
+			message: "#^Method T3docs\\\\Examples\\\\LinkHandler\\\\GithubLinkBuilder\\:\\:build\\(\\) has parameter \\$linkDetails with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: Classes/LinkHandler/GithubLinkBuilder.php
+
+		-
+			message: "#^Method T3docs\\\\Examples\\\\LinkValidator\\\\LinkType\\\\ExampleLinkType\\:\\:checkLink\\(\\) has parameter \\$softRefEntry with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: Classes/LinkValidator/LinkType/ExampleLinkType.php
+
+		-
+			message: "#^Method T3docs\\\\Examples\\\\LinkValidator\\\\LinkType\\\\ExampleLinkType\\:\\:getErrorMessage\\(\\) has parameter \\$errorParams with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: Classes/LinkValidator/LinkType/ExampleLinkType.php
+
+		-
+			message: "#^Cannot call method getDefaultLanguage\\(\\) on mixed\\.$#"
+			count: 1
+			path: Classes/Middleware/HaikuSeasonList.php
+
+		-
+			message: "#^Method T3docs\\\\Examples\\\\Middleware\\\\HaikuSeasonList\\:\\:getSeasons\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: Classes/Middleware/HaikuSeasonList.php
+
+		-
+			message: "#^Cannot access an offset on mixed\\.$#"
+			count: 1
+			path: Classes/Reaction/ExampleReactionType.php
+
+		-
+			message: "#^Method T3docs\\\\Examples\\\\Reaction\\\\ExampleReactionType\\:\\:jsonResponse\\(\\) has parameter \\$data with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: Classes/Reaction/ExampleReactionType.php
+
+		-
+			message: "#^Parameter \\#1 \\$array of function array_unique expects array, mixed given\\.$#"
+			count: 1
+			path: Classes/Reaction/ExampleReactionType.php
+
+		-
+			message: "#^Method T3docs\\\\Examples\\\\Service\\\\FlexFormSettingsService\\:\\:combineSettings\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: Classes/Service/FlexFormSettingsService.php
+
+		-
+			message: "#^Method T3docs\\\\Examples\\\\Service\\\\StandaloneViewService\\:\\:createView\\(\\) has parameter \\$config with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: Classes/Service/StandaloneViewService.php
+
+		-
+			message: "#^Method T3docs\\\\Examples\\\\Userfuncs\\\\CustomMenu\\:\\:makeMenuArray\\(\\) has parameter \\$conf with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: Classes/Userfuncs/CustomMenu.php
+
+		-
+			message: "#^Method T3docs\\\\Examples\\\\Userfuncs\\\\CustomMenu\\:\\:makeMenuArray\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: Classes/Userfuncs/CustomMenu.php
+
+		-
+			message: "#^Method T3docs\\\\Examples\\\\Userfuncs\\\\Tca\\:\\:haikuTitle\\(\\) has parameter \\$parameters with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: Classes/Userfuncs/Tca.php
+
+		-
+			message: "#^Method T3docs\\\\Examples\\\\Userfuncs\\\\Tca\\:\\:specialField\\(\\) has parameter \\$configuration with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: Classes/Userfuncs/Tca.php
+
+		-
+			message: "#^Access to an undefined property T3docs\\\\Examples\\\\Xclass\\\\NewRecordController\\:\\:\\$content\\.$#"
+			count: 1
+			path: Classes/Xclass/NewRecordController.php
