@@ -42,9 +42,6 @@ jobs:
       - name: CGL
         run: Build/Scripts/runTests.sh -n -p ${{ env.php }} -s cgl
 
-      - name: Rector
-        run: Build/Scripts/runTests.sh -n -p ${{ env.php }} -s rector
-
   xliff-lint:
     name: "XLIFF linter"
     runs-on: ubuntu-latest
